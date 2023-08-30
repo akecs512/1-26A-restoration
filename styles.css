@@ -438,7 +438,8 @@
 
   .main__content p {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif
   }
 }
 
@@ -509,7 +510,8 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  background-color: #1fa2ff;
+  /* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
   transition: 0.3s ease-in;
 }
 
@@ -703,3 +705,8 @@
     width: 100%;
   }
 }
+ .timeline {
+  height: 750px;
+  width: 600px;
+  padding: 20px;
+ }
